@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestAutomationSuite" parallel="none">
+	<test name="SageSpikeTest">
+		<parameter name="appURL" value="https://login.salesforce.com/" />
+		<parameter name="myTitle" value="SalesForce" />
+		<classes>
+			<class name="com.sage.ui.qa.test.PeopleObjectiveTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
